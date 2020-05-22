@@ -1,0 +1,121 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #747474;
+}
+
+header {
+    padding: 14px 40px;
+    background: #f44444;
+    color: #ffffff;
+    font-size: 63px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+footer {
+    font-size: 14px;
+    padding: 35px auto 40px auto;
+    background: #ffffff;
+    text-align: center;
+}
+
+footer div {
+    margin: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 40px 0 40px;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #747474;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+.register {
+    float: right;
+}
+
+.drop-btn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgb(240, 240, 240);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.promotion-banner,
+.promotion-banner img {
+    width: 100%;
+}
+
+.banner-text {
+    display: flex;
+    padding: 20px 0 20px 0;
+    background: #f44444;
+    position: relative;
+    top: -5px;
+    color: white;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.beaudei {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 63px;
+    text-align: center;
+}
+
+.free-delivery {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 43px;
+    line-height: 50px;
+    letter-spacing: 0.08em;
+}
+
+.no-min-purchase {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+}
