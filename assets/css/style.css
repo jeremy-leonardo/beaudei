@@ -24,7 +24,7 @@ footer div {
     margin: 15px;
 }
 
-ul {
+nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 0 40px 0 40px;
@@ -32,17 +32,21 @@ ul {
     background-color: white;
 }
 
-li {
+nav > ul > li {
     float: left;
 }
 
-li a {
+nav > ul > li a {
     display: block;
     color: #747474;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.015em;
     text-align: center;
     padding: 20px 30px;
     text-decoration: none;
 }
+
 .register {
     float: right;
 }
@@ -183,7 +187,6 @@ li.dropdown {
     border: 1px solid white;
 }
 
-/* Fading animation */
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
