@@ -5,6 +5,14 @@ body {
     color: #747474;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
 header {
     padding: 14px 40px;
     background: #f44444;
@@ -14,6 +22,8 @@ header {
 }
 
 footer {
+    padding-top: 30px;
+    padding-bottom: 40px;
     font-size: 14px;
     padding: 35px auto 40px auto;
     background: #ffffff;
@@ -22,6 +32,10 @@ footer {
 
 footer div {
     margin: 15px;
+}
+
+footer > div:first-child {
+    margin-bottom: 30px;
 }
 
 nav > ul {
@@ -141,20 +155,21 @@ li.dropdown {
     cursor: pointer;
     position: absolute;
     top: 50%;
-    width: auto;
+    height: 20px;
+    width: 20px;
     margin-top: -22px;
-    padding: 16px;
+    padding: 12px 15px 15px 15px;
     color: white;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    border-radius: 50% 50%;
     user-select: none;
+    text-align: center;
 }
 
 .next {
     right: 0;
-    border-radius: 3px 0 0 3px;
 }
 
 .prev:hover,
@@ -210,4 +225,26 @@ li.dropdown {
     to {
         opacity: 1;
     }
+}
+
+.popular-items {
+    margin-top: 50px;
+}
+
+.popular-item-cards-container {
+    display: flex;
+    margin : 40px 40px 90px 40px;
+}
+
+.popular-item-card {
+    flex: 1;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    margin: 0px 20px;
+    min-height: 300px;
+}
+
+.popular-item-card > .image-box {
+    height: 200px;
+    width: 100%;
+    background: #c4c4c4;
 }
