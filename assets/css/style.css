@@ -22,21 +22,22 @@ header {
 }
 
 footer {
-    padding-top: 30px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     font-size: 14px;
-    padding: 35px auto 40px auto;
-    background: #ffffff;
+    top: 35px;
+    bottom: 40px;
+    background: white;
     text-align: center;
     box-shadow: 0px -2px 8px rgba(117, 117, 117, 0.15);
 }
 
 footer div {
-    margin: 15px;
+    margin: 5px;
 }
 
 footer > div:first-child {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 nav {
