@@ -28,6 +28,7 @@ footer {
     padding: 35px auto 40px auto;
     background: #ffffff;
     text-align: center;
+    box-shadow: 0px -2px 8px rgba(117, 117, 117, 0.15);
 }
 
 footer div {
@@ -36,6 +37,10 @@ footer div {
 
 footer > div:first-child {
     margin-bottom: 30px;
+}
+
+nav {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 nav > ul {
@@ -233,7 +238,7 @@ li.dropdown {
 
 .popular-item-cards-container {
     display: flex;
-    margin : 40px 40px 90px 40px;
+    margin: 40px 40px 90px 40px;
 }
 
 .popular-item-card {
@@ -247,4 +252,17 @@ li.dropdown {
     height: 200px;
     width: 100%;
     background: #c4c4c4;
+}
+
+.container {
+    margin: 0px 40px;
+}
+
+.promotions {
+    margin: 40px 0px;
+    display: flex;
+}
+
+.promotion {
+    flex: 1;
 }
