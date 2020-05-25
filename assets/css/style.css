@@ -116,44 +116,13 @@ li.dropdown {
     display: block;
 }
 
+.promotion-main {
+    padding-top: 40px;
+}
+
 .promotion-banner,
 .promotion-banner img {
     width: 100%;
-}
-
-.banner-text {
-    display: flex;
-    padding: 20px 0 20px 0;
-    background: #f44444;
-    position: relative;
-    top: -5px;
-    color: white;
-}
-
-.flex-1,
-.promotion {
-    flex: 1;
-    -ms-flex: 1;
-}
-
-.beaudei {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 63px;
-    text-align: center;
-}
-
-.free-delivery {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 43px;
-    line-height: 50px;
-    letter-spacing: 0.08em;
-}
-
-.no-min-purchase {
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 33px;
 }
 
 .slideshow-container {
@@ -216,7 +185,7 @@ li.dropdown {
 
 .dot.active,
 .dot:hover {
-    background-color: #f44444;
+    background-color: #03ad0e;
     border: 1px solid white;
 }
 
@@ -302,7 +271,7 @@ li.dropdown {
 }
 
 main.register {
-    background: url("/assets/images/register-bg.png") no-repeat center center fixed;
+    background: url("/assets/images/register.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -335,6 +304,12 @@ main.register {
     .item-card {
         margin-bottom: 20px;
         flex-basis: 90%;
+    }
+    .container {
+        margin: 0px;
+    }
+    .promotion-main {
+        padding-top: 0px;
     }
 }
 
@@ -394,7 +369,7 @@ option {
 }
 
 .submit-btn {
-    background: #f44444;
+    background: #03ad0e;
     width: 100%;
     border: none;
     height: 40px;
