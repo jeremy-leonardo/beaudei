@@ -323,7 +323,8 @@ main.register {
         flex-basis: 90%;
     }
     .container {
-        margin: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .promotion-main {
         padding-top: 0px;
@@ -344,7 +345,7 @@ main.register {
         width: 100vw;
     }
     main {
-       margin-top: 60px;
+       margin-top: 60px !important;
     }
 }
 
