@@ -17,17 +17,26 @@
 
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="promotion.html">Promotion</a></li>
-            <li class="dropdown">
+            <li class="left-nav"><a href="index.html">Home</a></li>
+            <li class="left-nav"><a href="promotion.html">Promotion</a></li>
+            <li class="left-nav dropdown">
                 <a href="javascript:void(0)" class="drop-btn">Shop&nbsp;&nbsp;<img src="assets/icons/dropdown.svg"></a>
-                <div class="dropdown-content">
+                <div class="dropdown-content-left">
                     <a href="#">Shop Make Up</a>
                     <a href="#">Shop Skin Care</a>
                 </div>
             </li>
 
-            <li class="register-nav"><a href="register.html" class="active">Register</a></li>
+            <li class="right-nav register-nav"><a href="register.html" class="active">Register</a></li>
+            <li class="right-nav mobile-hamburger dropdown">
+                <a href="javascript:void(0)" class="drop-btn"><img src="assets/icons/hamburger.svg"></a>
+                <div class="mobile-nav-content">
+                    <a href="index.html">Home</a>
+                    <a href="promotion.html">Promotion</a>
+                    <a href="#">Shop Make Up</a>
+                    <a href="#">Shop Skin Care</a>
+                </div>
+            </li>
         </ul>
     </nav>
 
@@ -39,7 +48,8 @@
             <form>
                 <div class="form-group">
                     <label for="fullName">Full Name</label>
-                    <input onkeyup="validateFullName()" type="text" name="fullName" id="fullName" placeholder="Full Name">
+                    <input onkeyup="validateFullName()" type="text" name="fullName" id="fullName"
+                        placeholder="Full Name">
                     <small id="fullNameMsg"></small>
                 </div>
                 <div class="form-group">
@@ -47,13 +57,13 @@
                     <input onclick="validateGender()" type="radio" name="gender" id="male" value="male">
                     <label for="male">Male</label>
                     &nbsp;&nbsp;
-                    <input onclick="validateGender()" type="radio" name="gender" id="female" value ="female">
-                    <label  for="female" >Female</label>
+                    <input onclick="validateGender()" type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
                     <small id="genderMsg"></small>
                 </div>
                 <div class="form-group">
                     <label for="address">Address</label>
-                    <input onkeyup="validateAddress()"  type="text" name="address" id="address" placeholder="Address">
+                    <input onkeyup="validateAddress()" type="text" name="address" id="address" placeholder="Address">
                     <small id="addressMsg"></small>
                 </div>
                 <div class="form-group">
@@ -63,7 +73,8 @@
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input onkeyup="validatePassword()" type="password" name="password" id="password" placeholder="Password">
+                    <input onkeyup="validatePassword()" type="password" name="password" id="password"
+                        placeholder="Password">
                     <small id="passwordMsg"></small>
                 </div>
                 <div class="form-group">

@@ -12,14 +12,16 @@
 <body>
 
     <header>
-        Beaudei
+        <a href="index.html">
+            Beaudei
+        </a>
     </header>
 
     <nav>
         <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="promotion.html">Promotion</a></li>
-            <li class="dropdown">
+            <li class="left-nav"><a href="index.html" class="active">Home</a></li>
+            <li class="left-nav"><a href="promotion.html">Promotion</a></li>
+            <li class="left-nav dropdown">
                 <a href="javascript:void(0)" class="drop-btn">Shop&nbsp;&nbsp;<img src="assets/icons/dropdown.svg"></a>
                 <div class="dropdown-content">
                     <a href="#">Shop Make Up</a>
@@ -27,7 +29,16 @@
                 </div>
             </li>
 
-            <li class="register-nav"><a href="register.html">Register</a></li>
+            <li class="right-nav register-nav"><a href="register.html">Register</a></li>
+            <li class="right-nav mobile-hamburger dropdown">
+                <a href="javascript:void(0)" class="drop-btn"><img src="assets/icons/hamburger.svg"></a>
+                <div class="mobile-nav-content">
+                    <a href="index.html">Home</a>
+                    <a href="promotion.html">Promotion</a>
+                    <a href="#">Shop Make Up</a>
+                    <a href="#">Shop Skin Care</a>
+                </div>
+            </li>
         </ul>
     </nav>
 

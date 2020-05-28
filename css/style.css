@@ -60,16 +60,18 @@ nav > ul > li {
     float: left;
 }
 
-nav > ul > li a {
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
+nav > ul > li a {
     display: block;
     color: rgba(0, 0, 0, 0.54);
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.015em;
-    text-align: center;
     padding: 15px 30px;
-    text-decoration: none;
 }
 
 nav a.active {
@@ -83,18 +85,18 @@ nav a:hover {
     color: #03ad0e;
 }
 
-li.register-nav {
+li.right-nav {
     float: right;
+}
+
+.mobile-hamburger {
+    display: none;
 }
 
 .drop-btn {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-}
-
-li.dropdown {
-    display: inline-block;
 }
 
 .dropdown-content {
@@ -114,6 +116,20 @@ li.dropdown {
 }
 
 .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.mobile-nav-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0px;
+}
+
+.mobile-hamburger:hover .mobile-nav-content {
     display: block;
 }
 
@@ -311,6 +327,24 @@ main.register {
     }
     .promotion-main {
         padding-top: 0px;
+    }
+    .register-nav, .left-nav {
+        display: none !important;
+    }
+    .mobile-hamburger {
+        display: inline-block;
+        position: absolute;
+        position: fixed;
+        top: 8px;
+        right: 0px;
+    }
+    header {
+        position: fixed;
+        z-index: 99;
+        width: 100vw;
+    }
+    main {
+       margin-top: 60px;
     }
 }
 
