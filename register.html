@@ -22,8 +22,8 @@
             <li class="dropdown">
                 <a href="javascript:void(0)" class="drop-btn">Shop&nbsp;&nbsp;<img src="assets/icons/dropdown.svg"></a>
                 <div class="dropdown-content">
-                    <a href="#">Shop 1</a>
-                    <a href="#">Shop 2</a>
+                    <a href="#">Shop Make Up</a>
+                    <a href="#">Shop Skin Care</a>
                 </div>
             </li>
 
@@ -44,27 +44,27 @@
                 </div>
                 <div class="form-group">
                     <label for="gender">Gender</label>
-                    <input type="radio" name="gender" id="male">
+                    <input onclick="validateGender()" type="radio" name="gender" id="male" value="male">
                     <label for="male">Male</label>
                     &nbsp;&nbsp;
-                    <input type="radio" name="gender" id="female">
-                    <label for="female">Female</label>
-                    <small></small>
+                    <input onclick="validateGender()" type="radio" name="gender" id="female" value ="female">
+                    <label  for="female" >Female</label>
+                    <small id="genderMsg"></small>
                 </div>
                 <div class="form-group">
                     <label for="address">Address</label>
-                    <input type="text" name="address" id="address" placeholder="Address">
-                    <small></small>
+                    <input onkeyup="validateAddress()"  type="text" name="address" id="address" placeholder="Address">
+                    <small id="addressMsg"></small>
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Email">
-                    <small></small>
+                    <input onkeyup="validateEmail()" type="email" name="email" id="email" placeholder="Email">
+                    <small id="emailMsg"></small>
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="password" placeholder="Password">
-                    <small></small>
+                    <input onkeyup="validatePassword()" type="password" name="password" id="password" placeholder="Password">
+                    <small id="passwordMsg"></small>
                 </div>
                 <div class="form-group">
                     <label for="skinType">Skin Type</label>
@@ -76,12 +76,12 @@
                         <option value="combination">Combination skin</option>
                         <option value="sensitive">Sensitive skin</option>
                     </select>
-                    <small></small>
+                    <small id="skinMsg"></small>
                 </div>
                 <div class="form-group">
-                    <input type="checkbox" id="agreement" name="agreement" value="agreement">
+                    <input onclick="agreeChange()" type="checkbox" id="agreement" name="agreement" value="N">
                     <label for="agreement">I Agree to Beaudei Terms and Conditions</label>
-                    <small></small>
+                    <small id="agreeMsg"></small>
                 </div>
 
                 <button class="submit-btn" onclick="submitCheck()">Register</button>
