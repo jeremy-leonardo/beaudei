@@ -134,10 +134,6 @@ li.right-nav {
     top: 50px;
 }
 
-.mobile-hamburger:hover .mobile-nav-content {
-    display: block;
-}
-
 .promotion-main {
     padding-top: 40px;
 }

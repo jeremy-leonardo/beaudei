@@ -8,6 +8,10 @@ $(document).ready(function () {
   });
 });
 
+function openMobileNav(){
+  $('.mobile-nav-content').toggle(300);
+}
+
 function plusSlides(n) {
   changeSlide(slideIndex += n);
 }
