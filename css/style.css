@@ -14,11 +14,15 @@ body {
 }
 
 header {
-    padding: 14px 40px 5px 40px;
+    padding: 5px 40px 0px 40px;
     background: white;
     color: #03ad0e;
     font-size: 33px;
     font-family: "Times New Roman", Times, serif;
+}
+
+header .logo {
+    height: 65px;
 }
 
 footer {
@@ -127,6 +131,7 @@ li.right-nav {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     right: 0px;
+    top: 50px;
 }
 
 .mobile-hamburger:hover .mobile-nav-content {
@@ -336,7 +341,7 @@ main.register {
         display: inline-block;
         position: absolute;
         position: fixed;
-        top: 8px;
+        top: 20px;
         right: 0px;
     }
     header {
