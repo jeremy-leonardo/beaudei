@@ -8,7 +8,7 @@ $(document).ready(function () {
   });
 });
 
-function openMobileNav(){
+function openMobileNav() {
   $('.mobile-nav-content').toggle(300);
 }
 
@@ -139,19 +139,13 @@ function validateAddress() {
     formInvalidFeedback("address", "Address Cannot be empty");
     return false;
   }
-
   else if (!checkAddressStart(address)) {
     return false;
-
   }
-
   else if (address.length < 8) {
-
     formInvalidFeedback("address", "Address Has to be longer than 8 Character");
     return false;
   }
-
-
   else {
     return true;
   }
@@ -220,23 +214,18 @@ function validatePassword() {
     formInvalidFeedback("password", "Password cannot be empty");
     return false;
   }
-
   else if (pass.length < 8) {
     formInvalidFeedback("password", "Password must be longer than 8 characters");
     return false;
   }
-
   else {
     formValidFeedback("password");
     return true;
-
   }
-
 
 }
 
 function validateSkin() {
-
 
   var skin = $("#skinType").val();
 
@@ -249,7 +238,6 @@ function validateSkin() {
     formValidFeedback("skin");
     return true;
   }
-
 
 }
 
@@ -267,12 +255,6 @@ function validateGender() {
 
 function agreeChange() {
   isAgree = !isAgree;
-  // if ($("#agreement").val() == 'N') {
-  //   $("#agreement").val('Y');
-  // }
-  // else {
-  //   $("#agreement").val('N');
-  // }
   validateAgree();
 }
 
@@ -299,8 +281,6 @@ function alphabetCheck(str) {
   return true;
 }
 
-
-
 function submitCheck() {
 
   if (checkForm()) {
@@ -312,4 +292,39 @@ function submitCheck() {
     $("#submitErrorMsg").css("color", "red");
     $("#submitErrorMsg").html('Please check your input again');
   }
+}
+
+
+// make-up-shop
+
+$(document).ready(function () {
+
+  let butID = "#but1";
+  let tabID = "#tab1";
+
+  $(butID).css("border-bottom", "8px solid #03ad0e");
+  $(butID).css("color", "#03ad0e");
+  $(tabID).css("display", "flex");
+
+})
+
+function changeTab(input) {
+
+  for (let i = 1; i <= 3; i++) {
+    let butAll = "#but" + i;
+    $(butAll).css("border-bottom", "none");
+    $(butAll).css("color", "black");
+  }
+
+  for (let i = 1; i <= 3; i++) {
+    let tabAll = "#tab" + i;
+    $(tabAll).css("display", "none");
+  }
+
+  let butID = "#but" + input;
+  let tabID = "#tab" + input;
+
+  $(butID).css("border-bottom", "8px solid #03ad0e");
+  $(butID).css("color", "#03ad0e");
+  $(tabID).css("display", "flex");
 }

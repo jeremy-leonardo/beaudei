@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <title>Beaudei</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <!-- Beaudei -->
+            <img class="logo" src="assets/beaudei-full-logo.png" alt="Beaudei">
+        </a>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="left-nav"><a href="index.html">Home</a></li>
+            <li class="left-nav"><a href="promotion.html">Promotion</a></li>
+            <li class="left-nav dropdown">
+                <a href="javascript:void(0)" class="drop-btn active">Shop&nbsp;&nbsp;<img
+                        src="assets/icons/dropdown.svg"></a>
+                <div class="dropdown-content">
+                    <a href="make-up-shop.html">Shop Make Up</a>
+                    <a href="#">Shop Skin Care</a>
+                </div>
+            </li>
+
+            <li class="right-nav register-nav"><a href="register.html">Register</a></li>
+            <li class="right-nav mobile-hamburger dropdown">
+                <a href="javascript:void(0)" class="drop-btn" onclick="openMobileNav()"><img
+                        src="assets/icons/hamburger.svg"></a>
+                <div class="mobile-nav-content">
+                    <a href="index.html">Home</a>
+                    <a href="promotion.html">Promotion</a>
+                    <a href="make-up-shop.html">Shop Make Up</a>
+                    <a href="#">Shop Skin Care</a>
+                    <a href="register.html">Register</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="Upper-Shop-1">
+            <img src="assets/bg-shop1(2).jpg" alt="img" class="upr-img">
+            <P class="phar-right">The demands on cheap but good quality skinare product is massive nowadays. To provide
+                the best quality, Beaudei use 100% natural ingridients for your body, the quality
+                of our product is remain indisputable, we provides the large range of products including ace mask, Face
+                soap, body
+                soap, sunblock, moisturizer, and many more product to keep your skin healthy and help you to be the
+                best version of you.
+            </P>
+
+        </div>
+        <div class="middle-shop-1">
+            <hr class="mid-hr">
+
+            <h2 class="mid-h">SHOP BY PARTS</h2>
+            <div class="tab-container">
+                <div class="button-container">
+                    <button onclick="changeTab(1)" id="but1"><b>HAIR</b></button>
+                    <button onclick="changeTab(2)" id="but2"><b>FACE</b></button>
+                    <button onclick="changeTab(3)" id="but3"><b>BODY</b></button>
+                </div>
+                <div class="tab-panel" id="tab1">
+                    <div class="border-item-shop1">
+                        <div class="img-item-shop1">
+                            <img src="assets/items/hair-1.jpg" alt="img">
+                        </div>
+                        <div class="shop1-desc">
+                            Hair Clay
+                        </div>
+                        <div class="shop1-price">
+                            RP 180.000
+                        </div>
+                    </div>
+                    <div class="border-item-shop1">
+                        <div class="img-item-shop1">
+                            <img src="assets/items/hair-2.jpg" alt="img">
+                        </div>
+                        <div class="shop1-desc">
+                            Hair Conditioner
+                        </div>
+                        <div class="shop1-price">
+                            RP 250.000
+                        </div>
+                    </div>
+                    <div class="border-item-shop1">
+                        <div class="img-item-shop1">
+                            <img src="assets/items/hair-3.jpg" alt="img">
+                        </div>
+                        <div class="shop1-desc">
+                            Premium Shampoo
+                        </div>
+                        <div class="shop1-price">
+                            RP 125.000
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-panel" id="tab2">
+                    <div class="border-item-shop1">
+                        <div class="img-item-shop1">
+                            <img src="assets/items/face-1.jpg" alt="img">
+                        </div>
+                        <div class="shop1-desc">
+                            Facial Wash
+                        </div>
+                        <div class="shop1-price">
+                            RP 80.000
+                        </div>
+                    </div>
+                    <div class="border-item-shop1">
+                        <div class="img-item-shop1">
+                            <img src="assets/items/face-2.jpg" alt="img">
+                        </div>
+                        <div class="shop1-desc">
+                            Lipstick
+                        </div>
+                        <div class="shop1-price">
+                            RP 195.000
+                        </div>
+                    </div>
+                    <div class="border-item-shop1">
+                        <div class="img-item-shop1">
+                            <img src="assets/items/face-3.jpg" alt="img">
+                        </div>
+                        <div class="shop1-desc">
+                            Tinfit Shine
+                        </div>
+                        <div class="shop1-price">
+                            RP 158.000
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-panel" id="tab3">
+                    <div class="border-item-shop1">
+                        <div class="img-item-shop1">
+                            <img src="assets/items/body-1.jpg" alt="img">
+                        </div>
+                        <div class="shop1-desc">
+                            Moisturizer Cream
+                        </div>
+                        <div class="shop1-price">
+                            RP 220.000
+                        </div>
+                    </div>
+                    <div class="border-item-shop1">
+                        <div class="img-item-shop1">
+                            <img src="assets/items/body-2.jpg" alt="img">
+                        </div>
+                        <div class="shop1-desc">
+                            Body Spray
+                        </div>
+                        <div class="shop1-price">
+                            RP 75.000
+                        </div>
+                    </div>
+                    <div class="border-item-shop1">
+                        <div class="img-item-shop1">
+                            <img src="assets/items/body-3.jpg" alt="img">
+                        </div>
+                        <div class="shop1-desc">
+                            Body Lotion
+                        </div>
+                        <div class="shop1-price">
+                            RP 125.000
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div>
+            Copyright © 2020 Beaudei
+        </div>
+        <div>
+            In collaboration with
+        </div>
+        <div>
+            BB01 HCI Team ( 2201731106 - 2201769635 - 2201731756 - 2201760970 )<br>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

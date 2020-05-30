@@ -268,12 +268,12 @@ li.right-nav {
     margin: 20px;
 }
 
-.item-card .item-name {
+.item-name {
     font-weight: 600;
     color: rgb(68, 68, 68);
 }
 
-.item-card .price {
+.price {
     padding-top: 10px;
     font-weight: 600;
     color: #f44444;
@@ -330,7 +330,8 @@ main.register {
     .promotion-main {
         padding-top: 0px;
     }
-    .register-nav, .left-nav {
+    .register-nav,
+    .left-nav {
         display: none !important;
     }
     .mobile-hamburger {
@@ -346,7 +347,7 @@ main.register {
         width: 100vw;
     }
     main {
-       margin-top: 60px !important;
+        margin-top: 60px !important;
     }
 }
 
@@ -415,4 +416,127 @@ option {
     margin-top: 40px;
     margin-bottom: 10px;
     color: white;
+}
+
+
+/* shop styles */
+
+.Upper-Shop-1 {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    max-height: 600px;
+    padding-right: 2%;
+    padding-left: 2%;
+    display: flex;
+}
+
+.upr-img {
+    float: left;
+    clear: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.phar-right {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    text-align: justify;
+    margin-left: 2px;
+}
+
+.middle-shop-1 {
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 300px;
+}
+
+.mid-h {
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.tab-container .button-container {
+    margin-left: 10%;
+    align-self: center;
+    display: flex;
+}
+
+.tab-container .button-container button {
+    width: 30%;
+    height: 50px;
+    float: left;
+    border-style: none;
+    font-family: sans-serif;
+    outline: none;
+    background-color: white;
+}
+
+.tab-container .button-container button:hover {
+    color: #03ad0e;
+    outline: none;
+}
+
+.mid-hr {
+    width: 80%;
+}
+
+.drop-btn-active {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 4px solid #03ad0e;
+}
+
+.tab-panel {
+    height: 400px;
+    min-height: 200px;
+    /* background-color: gray; */
+    padding: 20px;
+    width: 81%;
+    box-sizing: border-box;
+    margin-left: 10%;
+    /* display: flex; */
+    flex-wrap: wrap;
+    display: none;
+}
+
+.border-item-shop1 {
+    flex: 1;
+    -ms-flex: 1;
+    flex-basis: 20%;
+    height: 90%;
+    width: 40%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+
+    margin-right: 5%;
+}
+
+.border-item-shop1 .img-item-shop1 {
+    height: 80%;
+    width: 100%;
+}
+
+.img-item-shop1 img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+
+.shop1-desc {
+    text-align: justify;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    color: black;
+}
+
+.shop1-price {
+    text-align: justify;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #f44444;
 }
