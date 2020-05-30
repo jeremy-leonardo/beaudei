@@ -1,0 +1,51 @@
+REFERENCES:
+
+register-bg
+https://unsplash.com/photos/dO5quaqAYg0
+
+item1.png
+https://unsplash.com/photos/K6CUcVYKrN0
+
+item2.png
+https://unsplash.com/photos/x_ujfGcrAyU
+
+item3.png
+https://unsplash.com/photos/7TlWZkpxCb0
+
+item4.png
+https://unsplash.com/photos/UrZdRlDsGY4
+
+promo banner image (used in carousel too):
+https://unsplash.com/photos/VnvPz_QDSeU
+
+new product banner image (used in carousel):
+https://unsplash.com/photos/bz-p9ZHtvUQ
+
+facial foam
+
+foam 1:
+https://www.google.com/search?q=innisfree+face+wash&safe=strict&sxsrf=ALeKk02dHSZtmT7NT6u02cPN5vNDb4BRBQ:1590817579725&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiUrPel8drpAhUR63MBHYE_CVIQ_AUoAXoECAwQAw&biw=1366&bih=695#imgrc=TOLu3y5sFFCZAM
+
+foam 2:
+https://theazabala.files.wordpress.com/2016/06/korea-nature-republic-deep-cleansing-soothing-moisture-aloe-vera-cleansing-gel-foam-personal-face-facial-wash.jpg
+
+foam 3:
+https://i.pinimg.com/originals/80/70/d7/8070d7b526a300750b432e4c24f5c0f8.jpg
+
+mask 1:
+https://methodephysiodermie.com/wp-content/uploads/sites/3/2018/01/recovery-night-mask.jpg
+
+mask 2:
+https://cdn1.costatic.com/img/product/800/5e750b2b10216/filorga-ncef-night-p36116.jpg
+
+mask 3:
+https://cdn.idntimes.com/content-images/community/2018/08/72e1c241649770e865f8c11a43f6779d.jpg
+
+lotion 1:
+https://cdn3.tstatic.net/jualbeli/img/2018/3/2238903/1-700104701-Aloevera-Nature-Republic-Gel.jpg
+
+lotion 2:
+https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsVCuIO7jYe9kS1ySbmdPRyHWx7UbD1weRmRT3xmvKzErgWcf-&usqp=CAU
+
+lotion 3:
+https://i2.wp.com/i1062.photobucket.com/albums/t496/floatingindreams/beauty2/tbsaloemoisturizer1_zpsfg9w1twj.jpg

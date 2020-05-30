@@ -312,6 +312,19 @@ main.register {
         margin-bottom: 20px;
         flex-basis: 40%;
     }
+
+    .tab-panel{
+
+        height: inherit;
+    }
+
+    .tab-panel .border-item-shop1{
+
+        flex-basis: 50%;
+
+    }
+
+   
 }
 
 @media screen and (max-width: 800px) {
@@ -349,7 +362,27 @@ main.register {
     main {
         margin-top: 60px !important;
     }
+
 }
+
+
+    @media screen and (max-width : 800px) {
+        
+        .Upper-Shop-1{
+            flex-direction: row;
+            justify-content: space-between;
+            flex-flow: wrap;
+            width: 100%;
+           
+        
+            }
+            
+    
+    
+    }
+
+    
+
 
 form {
     margin-top: 30px;
@@ -422,28 +455,36 @@ option {
 /* shop styles */
 
 .Upper-Shop-1 {
-    position: relative;
+    /* position: relative; */
     padding-top: 40px;
     padding-bottom: 50px;
-    max-height: 600px;
     padding-right: 2%;
     padding-left: 2%;
     display: flex;
+   
+    
+
 }
 
 .upr-img {
-    float: left;
-    clear: left;
+    
+    
     margin-left: 2%;
     margin-right: 2%;
-}
-
-.phar-right {
     font-family: "Times New Roman", Times, serif;
     font-size: 24px;
     text-align: justify;
-    margin-left: 2px;
+    box-sizing: border-box;
+    margin-top: 2%;
 }
+
+.upr-img img{
+  height: inherit;
+    width: inherit;
+    object-fit: cover;
+
+}
+
 
 .middle-shop-1 {
     align-content: center;
@@ -500,16 +541,15 @@ option {
     /* display: flex; */
     flex-wrap: wrap;
     display: none;
+    max-height: 2000px;
 }
 
 .border-item-shop1 {
     flex: 1;
     -ms-flex: 1;
-    flex-basis: 20%;
     height: 90%;
     width: 40%;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-
     margin-right: 5%;
 }
 
