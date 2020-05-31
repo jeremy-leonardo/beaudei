@@ -313,7 +313,7 @@ function changeTab(input) {
   for (let i = 1; i <= 3; i++) {
     let butAll = "#but" + i;
     $(butAll).css("border-bottom", "none");
-    $(butAll).css("color", "black");
+    $(butAll).css("color", "rgba(0, 0, 0, 0.54)");
   }
 
   for (let i = 1; i <= 3; i++) {
