@@ -313,18 +313,13 @@ main.register {
         flex-basis: 40%;
     }
 
-    .tab-panel{
-
+    .tab-panel {
         height: inherit;
     }
 
-    .tab-panel .border-item-shop1{
-
+    .tab-panel .border-item-shop1 {
         flex-basis: 50%;
-
     }
-
-   
 }
 
 @media screen and (max-width: 800px) {
@@ -362,27 +357,31 @@ main.register {
     main {
         margin-top: 60px !important;
     }
-
-}
-
-
-    @media screen and (max-width : 800px) {
-        
-        .Upper-Shop-1{
-            flex-direction: row;
-            justify-content: space-between;
-            flex-flow: wrap;
-            width: 100%;
-           
-        
-            }
-            
-    
-    
+    .upper-shop-1 {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-flow: wrap;
+        width: 100%;
     }
+    .shop-heading-img-container {
+        flex: none !important;
 
-    
-
+    }
+    .shop-heading-text{
+        display: block !important;
+        flex: none !important;
+        margin: 0px !important;
+    }
+    .shop-heading{
+        display: block !important;
+    }
+    .shop-heading-img {
+        flex: none;
+        display: block;
+        padding: 0px !important;
+        width: 90vw !important;
+    }
+}
 
 form {
     margin-top: 30px;
@@ -451,40 +450,29 @@ option {
     color: white;
 }
 
-
 /* shop styles */
 
-.Upper-Shop-1 {
+.upper-shop-1 {
     /* position: relative; */
     padding-top: 40px;
     padding-bottom: 50px;
     padding-right: 2%;
     padding-left: 2%;
     display: flex;
-   
-    
-
 }
 
 .upr-img {
-    
-    
-    margin-left: 2%;
-    margin-right: 2%;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 24px;
+    font-size: 22px;
     text-align: justify;
     box-sizing: border-box;
     margin-top: 2%;
 }
 
-.upr-img img{
-  height: inherit;
+.upr-img img {
+    height: inherit;
     width: inherit;
     object-fit: cover;
-
 }
-
 
 .middle-shop-1 {
     align-content: center;
@@ -579,4 +567,34 @@ option {
     font-size: 24px;
     font-weight: 600;
     color: #f44444;
+}
+
+.shop-heading {
+    display: flex;
+    padding: 30px;
+}
+
+.shop-heading-img {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.shop-heading-img-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    flex: 1;
+    display: flex;
+
+}
+
+.shop-heading-text {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-align: justify;
+    flex: 2;
+    font-size: 18px;
 }
