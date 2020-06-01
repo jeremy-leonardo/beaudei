@@ -1,22 +1,22 @@
 var slideIndex = 1;
 
 $(document).ready(function () {
-  changeSlide(slideIndex);
+  goToSlide(slideIndex);
 });
 
 function openMobileNav() {
   $('.mobile-nav-content').toggle(300);
 }
 
-function plusSlides(n) {
-  changeSlide(slideIndex += n);
+function incrementSlide(n) {
+  goToSlide(slideIndex += n);
 }
 
 function currentSlide(n) {
-  changeSlide(slideIndex = n);
+  goToSlide(slideIndex = n);
 }
 
-function changeSlide(n) {
+function goToSlide(n) {
   let i;
   let slides = $(".slides");
   let dots = $(".dot");
