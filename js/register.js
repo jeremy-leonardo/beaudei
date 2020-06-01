@@ -1,42 +1,10 @@
-var slideIndex = 1;
 var isAgree = false;
 
 $(document).ready(function () {
-  changeSlide(slideIndex);
   $("form").submit(function (e) {
     e.preventDefault();
   });
 });
-
-function openMobileNav() {
-  $('.mobile-nav-content').toggle(300);
-}
-
-function plusSlides(n) {
-  changeSlide(slideIndex += n);
-}
-
-function currentSlide(n) {
-  changeSlide(slideIndex = n);
-}
-
-function changeSlide(n) {
-  let i;
-  let slides = $(".slides");
-  let dots = $(".dot");
-
-  if (n > slides.length)
-    slideIndex = 1
-
-  if (n < 1)
-    slideIndex = slides.length
-
-  $(slides).css("display", "none");
-  $(dots).removeClass("active");
-
-  $(slides[slideIndex - 1]).css("display", "block");
-  $(dots[slideIndex - 1]).addClass("active");
-}
 
 function checkForm() {
   let isNameValid = validateFullName();
@@ -115,7 +83,6 @@ function validateFullName() {
   }
 }
 
-
 function checkAddressStart(input) {
   let addressStr = input;
   let subStr1 = "jl.";
@@ -151,7 +118,6 @@ function validateAddress() {
   }
 
 }
-
 
 function checkEMail(inp) {
 
@@ -292,39 +258,4 @@ function submitCheck() {
     $("#submitErrorMsg").css("color", "red");
     $("#submitErrorMsg").html('Please check your input again');
   }
-}
-
-
-// make-up-shop
-
-$(document).ready(function () {
-
-  let butID = "#but1";
-  let tabID = "#tab1";
-
-  $(butID).css("border-bottom", "8px solid #03ad0e");
-  $(butID).css("color", "#03ad0e");
-  $(tabID).css("display", "flex");
-
-})
-
-function changeTab(input) {
-
-  for (let i = 1; i <= 3; i++) {
-    let butAll = "#but" + i;
-    $(butAll).css("border-bottom", "none");
-    $(butAll).css("color", "rgba(0, 0, 0, 0.54)");
-  }
-
-  for (let i = 1; i <= 3; i++) {
-    let tabAll = "#tab" + i;
-    $(tabAll).css("display", "none");
-  }
-
-  let butID = "#but" + input;
-  let tabID = "#tab" + input;
-
-  $(butID).css("border-bottom", "8px solid #03ad0e");
-  $(butID).css("color", "#03ad0e");
-  $(tabID).css("display", "flex");
 }
