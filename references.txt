@@ -3,18 +3,6 @@ REFERENCES:
 register-bg
 https://unsplash.com/photos/dO5quaqAYg0
 
-item1.png
-https://unsplash.com/photos/K6CUcVYKrN0
-
-item2.png
-https://unsplash.com/photos/x_ujfGcrAyU
-
-item3.png
-https://unsplash.com/photos/7TlWZkpxCb0
-
-item4.png
-https://unsplash.com/photos/UrZdRlDsGY4
-
 promo banner image (used in carousel too):
 https://unsplash.com/photos/VnvPz_QDSeU
 
@@ -49,3 +37,33 @@ https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsVCuIO7jYe9kS1ySbmdPRyH
 
 lotion 3:
 https://i2.wp.com/i1062.photobucket.com/albums/t496/floatingindreams/beauty2/tbsaloemoisturizer1_zpsfg9w1twj.jpg
+
+bg-Makeup
+https://blogs.insanmedika.co.id/wp-content/uploads/2019/12/7-bahaya-make-up.jpg
+
+hair 1:
+https://images-na.ssl-images-amazon.com/images/I/71okg2rRBZL._SY355_.jpg
+
+hair 2:
+https://i.ebayimg.com/images/g/h2cAAOSwm3Ba8I0l/s-l400.jpg
+
+hair 3:
+https://images.ulta.com/is/image/Ulta/2270685?op_sharpen=1&resMode=bilin&qlt=85&wid=800&hei=800&fmt=jpg
+
+eye 1:
+https://www.temptalia.com/wp-content/uploads/2017/07/sephora_editorial_001_palette-760x625.jpg
+
+eye 2:
+https://media-asia-cdn.oriflame.com/-/media/images/externalImage.ashx?externalMediaId=product-management-media%2F34631%2FID%2F34631.png%3Fversion%3D1588860466&q=70	
+
+eye 3:
+https://imgaz1.staticbg.com/thumb/view/oaupload/banggood/images/C4/E8/70aff24a-63bf-455c-9037-f7c3dc1ad27a.jpg
+
+lip 1:
+https://cdn.shopify.com/s/files/1/0102/6949/1258/products/uohtlvv8xq8eedvc9d1q.jpg?v=1565382087
+
+lip 2:
+https://www.physiciansformula.com/media/catalog/product/cache/2b04ba640907586af81250e8f77894b9/1/7/1780010.jpg
+
+lip 3:
+https://images.squarespace-cdn.com/content/v1/5b5922b9c3c16ae32a6d7ae3/1532924547983-U71EKEDG8KL8799SZY3W/ke17ZwdGBToddI8pDm48kG87Sfbgg29A4BYEDq3OXvgUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcwzM2vY4zcR8T4Jyx-ijnH3AX3fNmlFWTtLveLoXLwwuUl76mRIIOTkltMT5VW2q5/DH-Lipstick-17-geum.png%2C?format=1500w
