@@ -1,6 +1,6 @@
-REFERENCES:
+Referensi untuk gambar – gambar yang digunakan:
 
-register-bg
+register-bg:
 https://unsplash.com/photos/dO5quaqAYg0
 
 promo banner image (used in carousel too):
@@ -8,6 +8,9 @@ https://unsplash.com/photos/VnvPz_QDSeU
 
 new product banner image (used in carousel):
 https://unsplash.com/photos/bz-p9ZHtvUQ
+
+skin-care:
+https://images.app.goo.gl/XuTdjLBHi3HpMJnH6
 
 foam 1:
 https://www.google.com/search?q=innisfree+face+wash&safe=strict&sxsrf=ALeKk02dHSZtmT7NT6u02cPN5vNDb4BRBQ:1590817579725&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiUrPel8drpAhUR63MBHYE_CVIQ_AUoAXoECAwQAw&biw=1366&bih=695#imgrc=TOLu3y5sFFCZAM
@@ -68,3 +71,6 @@ https://images.squarespace-cdn.com/content/v1/5b5922b9c3c16ae32a6d7ae3/153292454
 
 hamburger icon:
 https://www.flaticon.com/free-icon/menu_216751?term=menu%20green&page=1&position=1
+
+dropdown icon:
+https://www.flaticon.com/free-icon/down-arrow_248526?term=arrow%20green&page=1&position=41
