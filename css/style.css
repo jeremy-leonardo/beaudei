@@ -393,7 +393,8 @@ main.register {
     .image-box {
         height: 300px;
     }
-    .promotion-title, .promotion-text {
+    .promotion-title,
+    .promotion-text {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -616,7 +617,19 @@ option {
     color: rgb(97, 97, 97);
 }
 
-.promotion-text{
+.promotion-text {
     text-align: justify;
     margin-bottom: 40px;
+}
+
+.hamburger-icon {
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    bottom: -30px;
+    cursor: pointer;
+}
+
+.dropdown-icon {
+    height: 14px;
 }
